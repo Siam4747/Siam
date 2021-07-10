@@ -1,0 +1,205 @@
+
+@media(max-width:900px){
+    nav ul li a{
+        display: block;
+        line-height: 0px;
+    }
+    nav ul{
+       position: fixed;
+       top: -400px;
+       left: 0px;
+       background-color: black;
+       width: 100%;
+       text-align: center;
+       padding-top: 0px;
+    }
+    nav .checkbtn{
+
+display: block;
+
+font-size: 21px;
+
+margin-right: 20px;
+
+color: red;
+
+background: white;
+
+line-height: 30px;
+
+margin-top: 24px;
+
+padding: 2px 8px;
+}
+#check:checked ~ ul{
+    top: 84px;
+    left: 0px;
+    transition: 0.3s;
+    background: #8e8e8e;
+}
+
+}
+
+/* cssresponsive 2 */
+
+
+
+@media(max-width:1343px){
+    .productsTittel{
+        width:93%;
+        overflow: hidden;
+        margin-top: 80px;
+        border-bottom: 1px solid #e4dada;
+        margin-bottom:40px;
+    }
+    .continer {
+        margin: auto;
+        width: 23%;
+    }
+    .productsBox{
+        overflow: hidden;
+        margin: auto;
+    }
+    .single {
+    display: inline;
+    width: 47% !important;
+    margin-right: 7px !important;
+    margin-left: 26px !important;
+    }
+    .Simg {
+        width: 100%;
+    }
+    .Simg img {
+    }
+    .Stittele {
+        width: 100%;
+        padding: 0px 21px;
+        margin-top: -7px;
+        border-bottom: 1px solid #d2d2d2;
+        border-left: 1px solid #d2d2d2;
+        border-right: 1px solid #d2d2d2;
+    }
+    .Stittele h3 {
+        display: inline;
+        line-height: 60px;
+        font-size: 17px;
+    }
+    .Stittele span {
+        float: right;
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .Stittele p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .Stittele i {
+        display: inline;
+        font-size: 13px;
+        line-height: 60px;
+        color: red;
+    }
+    .Stittele h4 {
+        display: inline;
+        float: right;
+        font-size: 13px;
+        line-height: 60px;
+        color: red;
+        font-weight: 400;
+    }
+
+
+
+
+
+    
+
+
+        .tittele {
+            text-align: center;
+            padding-top: 85px;
+            padding-bottom: 30px;
+        }
+        .tittele p {
+            font-weight: 500;
+        }
+        .tittele a {
+            color: red;
+            font-weight: 400;
+        }
+
+
+}
+
+@media (max-width:1229px){
+   
+    #oferBox{
+        
+width: 1230px;
+        
+margin-left: 0px;
+    }
+    section#aboutbox{
+        width: 1200px;
+    }
+    section#Creative{
+        width: 1200px;
+    }
+}
+
+/* cbnjhbvhjb */
+@media (max-width:700px){
+   
+        .Stittele p{
+
+color: black;
+
+font-family: 'Poppins';
+
+}
+section#Creative h3{
+    text-align: center;
+}
+section#Creative button{
+
+}
+section#\ Products{
+
+}
+.single{width: 790px !important;float: left !important;margin-left: 246px !important;}
+    
+.AboutboxLeftcontant{
+
+width: 70% !important;
+
+margin-left: 213px !important;
+}
+.AboutboxRightcontant{
+    
+float: left !important;
+    
+margin-left: 226px;
+    
+width: 65% !important;
+}
+.aboutboxTittele{text-align: center;}
+.AboutboxRightcontant img{
+    
+width: 100% !important;
+}
+.productsTittel{
+    
+width: 914px !important;
+    
+margin-left: 182px !important;
+}
+
+}
+@media (max-width:500px){
+    .single{
+        
+width: 1143px !important;
+        
+margin-left: 43px !important;
+    }
+}

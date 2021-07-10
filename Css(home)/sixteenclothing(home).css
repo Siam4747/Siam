@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+section#\ Products {
+    width: 1230px;
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: black
+}
+.headerLogo{
+    line-height: 80px;
+    margin-left: 25px;
+}
+.headerLogo h1{
+    color: white;
+    display: inline;
+    font-size: 27px;
+    margin-left: -10px;
+}
+.headerLogo span{
+    color: red;
+    font-size: 27px;
+}
+nav ul{
+    float: right;
+    
+}
+nav ul li a{
+    color: white;
+}
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    margin-right: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 28px;
+}
+.checkbtn{
+    color: white;
+    float: right;
+    line-height: 80px;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+.continer {
+    margin: auto;
+    width: 93%;
+}
+nav ul li:last-child {
+    margin-right: 0px;
+    padding: 0px 28px;
+}
+div#header {
+    background: black;
+    position: fixed;
+    width: 100%;
+}
+#oferBox{
+    background: url(../imges/slyder/S1.jpg);
+    background-position: center center;
+}
+.oferBoxTittel {
+    text-align: center;
+}
+
+.oferBoxTittel h3 {
+    text-transform: uppercase;
+    color: #e23131;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 200px;
+}
+
+.oferBoxTittel h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    padding-bottom: 202px;
+    letter-spacing: 5px;
+}
+.productsTittel {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+    border-bottom: 1px solid #e4dada;
+    margin-bottom: 40px;
+}
+
+.productsTittel h2 {
+    display: inline;
+    float: left;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.productsTittel span {
+    float: right;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 16px;
+    color: red;
+}
+
+.productsBox {
+    overflow: hidden;
+    margin: auto;
+}
+
+.single {overflow: hidden;width: 32%;float: left;margin-right: 25px;}
+
+.Simg {
+    width: 100%;
+}
+
+.Stittele h4 {display: inline;float: right;font-size: 13px;line-height: 60px;color: red;font-weight: 400;}
+
+.Stittele h3 {
+    display: inline;
+    line-height: 60px;
+    font-size: 17px;
+}
+
+.Stittele i {
+    display: inline;
+    font-size: 13px;
+    line-height: 60px;
+    color: red;
+}
+
+.Stittele p {font-size: 15px;font-weight: 300;}
+
+.Stittele {
+    width: 100%;
+    padding: 0px 21px;
+    margin-top: -7px;
+    border-bottom: 1px solid #d2d2d2;
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+
+.Stittele span {
+    float: right;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.Simg img {
+    width: 100%;
+}
+.single:nth-child(3) {
+    margin-right: 0px;
+}
+
+.single:nth-child(6) {
+    margin-right: 0px;
+}
+
+.single {
+    margin-bottom: 30px;
+}
+nav ul span {
+    width: 66px;
+    height: 3px;
+    background: red;
+    position: absolute;
+}@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: black
+}
+.headerLogo{
+    line-height: 80px;
+    margin-left: 25px;
+}
+.headerLogo h1{
+    color: white;
+    display: inline;
+    font-size: 27px;
+    margin-left: -10px;
+}
+.headerLogo span{
+    color: red;
+    font-size: 27px;
+}
+nav ul{
+    float: right;
+    
+}
+nav ul li a{
+    color: white;
+}
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    margin-right: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 28px;
+}
+.checkbtn{
+    color: white;
+    float: right;
+    line-height: 80px;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+.continer {
+    margin: auto;
+    width: 93%;
+}
+nav ul li:last-child {
+    margin-right: 0px;
+    padding: 0px 28px;
+}
+div#header {
+    background: black;
+    position: fixed;
+    width: 100%;
+}
+#oferBox{
+    background: url(../imges/slyder/S1.jpg);
+    background-position: center center;
+}
+.oferBoxTittel {
+    text-align: center;
+}
+
+.oferBoxTittel h3 {
+    text-transform: uppercase;
+    color: #e23131;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 200px;
+}
+
+.oferBoxTittel h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    padding-bottom: 202px;
+    letter-spacing: 5px;
+}
+.productsTittel {
+    width: 98%;
+    overflow: hidden;
+    margin-top: 80px;
+    border-bottom: 1px solid #e4dada;
+    margin-left: 8px;
+    margin-bottom: 40px;
+}
+
+.productsTittel h2 {
+    display: inline;
+    float: left;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.productsTittel span {
+    float: right;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 16px;
+    color: red;
+}
+
+.productsBox {
+    overflow: hidden;
+    margin: auto;
+}
+
+.single {overflow: hidden;width: 31%;float: left;margin-right: 25px;}
+
+.Simg {
+    width: 100%;
+}
+
+.Stittele h4 {display: inline;float: right;font-size: 15px;line-height: 60px;color: red;font-weight: 500;}
+
+.Stittele h3 {
+    display: inline;
+    line-height: 60px;
+    font-size: 17px;
+}
+
+.Stittele i {
+    display: inline;
+    font-size: 13px;
+    line-height: 60px;
+    color: red;
+}
+
+.Stittele p {font-size: 19px;font-weight: 300;}
+
+.Stittele {
+    width: 100%;
+    padding: 0px 21px;
+    margin-top: -7px;
+    border-bottom: 1px solid #d2d2d2;
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+
+.Stittele span {
+    float: right;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.Simg img {
+    width: 100%;
+}
+.single:nth-child(3) {
+    margin-right: 0px;
+}
+
+.single:nth-child(6) {
+    margin-right: 0px;
+}
+
+.single {
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
+
+
+span.s1 {
+    position: absolute;
+    background: #e6e2e2;
+    width: 12px;
+    height: 12px;
+    margin-top: -60px;
+    border-radius: 100%;
+    margin-left: -25px;
+}
+span.s2 {
+    position: absolute;
+    background: #a09393;
+    width: 12px;
+    height: 12px;
+    margin-top: -60px;
+    border-radius: 100%;
+}
+
+span.s3 {
+    position: absolute;
+    background: #8c8b8b;
+    width: 12px;
+    height: 12px;
+    margin-top: -60px;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+span.s4 {
+    position: absolute;
+    background: red;
+    width: 11px;
+    height: 11px;
+    margin-top: -60px;
+    border-radius: 100%;
+}
+.aboutboxTittele h2 {
+    font-weight: 500;
+    font-size: 33px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 8px;
+    margin-left: 21px;
+}
+
+.container3 {
+    margin: auto;
+    width: 81% !important;
+}
+
+.aboutboxTittele {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.AboutboxLeftcontant h3 {font-weight: 400;font-size: 24px;line-height: 70px;color: #1671b9;}
+
+.AboutboxLeftcontant {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+    margin-left: 25px;
+}
+
+
+.AboutboxLeftcontant p {font-size: 18px;font-weight: 600;color: #908585;line-height: 25px;margin-bottom: 25px;}
+
+
+.AboutboxLeftcontant ul  li {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #615e5e;
+}
+
+
+
+.AboutboxLeftcontant ul a {
+    color: #636363;
+}
+
+.AboutboxLeftcontant ul {
+    margin-bottom: 20px;
+    margin-left: 26px;
+}
+
+.AboutboxRightcontant {
+    height: 330px;
+    width: 540px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+
+
+.AboutboxRightcontant img {
+    height: 100%;
+    width: 100%;
+}
+
+.AboutboxLeftcontant button {
+    background: #ff3d00;
+    border: none;
+    color: white;
+    padding: 12px 23px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+section#aboutbox {
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+section#Creative {
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+
+section#Creative h3 {
+    font-size: 21px;
+    color: #1a6692;
+    margin-bottom: 18px;
+}
+
+section#Creative p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4a4a4a;
+    line-height: 24px;
+    display: inline;
+}
+
+section#Creative button {
+    float: right;
+    background-color: #f33f3f;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 11px 22px;
+    border-radius: 5px;
+    border: none;
+    margin-top: -22px;
+}
+.tittele {
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 30px;
+}
+
+.tittele p {
+    font-weight: 500;
+}
+
+.tittele a {
+    color: red;
+    font-weight: 400;
+}
+.container2 {
+    margin: auto;
+    width: 1200px;
+}
